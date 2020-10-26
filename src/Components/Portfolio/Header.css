@@ -1,0 +1,120 @@
+.sohailLink {
+    /* color: red; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap-reverse; */
+    text-decoration: none;
+    /* list-style-type: none; */
+    /* height: 80px; */
+    height: 14%;
+    color: white;
+    top: 2;
+    position: relative;
+    left: 0;
+    width: 100%;
+    transition: 1s;
+    letter-spacing: 2px;
+    align-items: center;
+    padding: 0px 12px;
+    background-color: #09bcee;
+}
+
+#buttonhead{
+    border: 2px solid white;
+    border-radius: 22px;
+    padding: 12px;
+    cursor: pointer;
+    color: blue;
+
+    font-weight: bolder;
+    outline: none;
+    letter-spacing: 2px;
+    /* background-color: red; */
+    /* color: red; */
+    margin-bottom: 0;
+}
+.close,.menu {
+    display: none;
+}
+#votcher{
+    background-color: rgba(113, 235, 0,0.15);
+    margin: 0;
+
+    align-items: baseline;
+    padding-left: 20px;
+    display: block;
+    background-color: cornsilk;
+    /* margin-left:px; */
+}
+
+
+.logo {
+    /* color: red; */
+    /* background-color: rgb(145, 100, 228); */
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sohailLink select{
+    outline: none;
+    border: 0;
+    background-color: rgba(0, 0, 0,0);
+    
+    padding: 8px;
+    border-style: none;
+    color: white;
+    font-size: medium;
+
+    font-weight: bolder;
+}
+
+@media (max-width:1328px){
+    #buttonhead{
+        border: 3px solid rebeccapurple;
+        color:red;
+        font-weight: bolder;
+
+    }
+    .sohailLink .toggle {
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        width:100vw;
+        height: 100vh;
+        display:flex;
+        font-weight: bolder;
+        flex-wrap: nowrap;
+        align-items: center;   
+        flex-direction: column;
+        background-color:white;
+        z-index: 99;
+        opacity: 0.97;
+        transition: 0.5s linear;
+    }
+    .sohailLink select {
+        color: black;
+        padding: 39px;
+    }
+
+    .menu,.close{
+        display: block;
+        z-index: 100000;
+        position: fixed;
+    }
+    .close{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .toggle{
+        top: 0;
+    }
+}
+@media (max-width:1085px){
+    .mbl-d-none{
+        display: none;
+
+    }
+}

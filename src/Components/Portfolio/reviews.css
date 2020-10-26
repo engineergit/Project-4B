@@ -1,0 +1,14 @@
+.main{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+/* Carousel{
+    height: 20%;
+} */
+.crsl{
+    height: 30% !important;
+    width: 10%;
+}
